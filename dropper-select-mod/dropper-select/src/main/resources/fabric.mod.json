@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "dropperselect",
+	"version": "${version}",
+	"name": "Dropper Select",
+	"description": "Choose which slot a dropper (or dispenser) fires using keybinds, instead of a random one.",
+	"authors": [
+		"You"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/dropperselect/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.dropperselect.DropperSelect"
+		],
+		"client": [
+			"com.dropperselect.client.DropperSelectClient"
+		]
+	},
+	"mixins": [
+		"dropperselect.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

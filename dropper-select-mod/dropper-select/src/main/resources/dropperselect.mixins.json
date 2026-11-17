@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "com.dropperselect.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"DispenserBlockEntityMixin",
+		"DispenserBlockInvoker"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
